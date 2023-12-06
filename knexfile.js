@@ -13,6 +13,7 @@ const URL =
     : DEVELOPMENT_DATABASE_URL;
 
 console.log(`NODE_ENV ${NODE_ENV}`);
+console.log(`URL ${URL}`);
 module.exports = {
   development: {
     client: "postgresql",
