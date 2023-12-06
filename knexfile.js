@@ -12,6 +12,7 @@ const URL =
     ? PRODUCTION_DATABASE_URL
     : DEVELOPMENT_DATABASE_URL;
 
+console.log(`NODE_ENV ${NODE_ENV}`);
 module.exports = {
   development: {
     client: "postgresql",
